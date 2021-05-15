@@ -13,6 +13,11 @@
   &[center] {
     display: flex;
     justify-content: center;
+
+  &[left] {
+    display: flex;
+    justify-content: left;
+  }
   }
 }
 

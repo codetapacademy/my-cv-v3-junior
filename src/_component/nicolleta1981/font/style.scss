@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?k7rhyz') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?k7rhyz') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?k7rhyz##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?p6twp9') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?p6twp9') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?p6twp9##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -14,7 +14,7 @@
 [class^="ns-"], [class*=" ns-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
-  // speak: never;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -26,6 +26,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ns-double-arrow {
+  &:before {
+    content: $ns-double-arrow; 
+  }
+}
+.ns-download {
+  &:before {
+    content: $ns-download; 
+  }
+}
 .ns-youtube {
   &:before {
     content: $ns-youtube; 
