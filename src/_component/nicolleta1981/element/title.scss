@@ -1,0 +1,13 @@
+.main-title {
+  & span:first-child {
+    color: $color-blue;
+  }
+  
+  & span:not(:first-child) {
+    color: $color-dark-grey;
+  }
+
+  // & span:last-child {
+  //   color: $color-dark-grey;
+  // }
+}
