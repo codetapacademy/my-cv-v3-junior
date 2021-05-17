@@ -1,11 +1,4 @@
 .cell {
-  // counter-increment: counter-strike;
-
-  // &::before {
-  //   content: counter(counter-strike);
-
-  // }
-
   &[row] {
     grid-column: 1/-1;
   }
@@ -13,11 +6,10 @@
   &[center] {
     display: flex;
     justify-content: center;
-
+  }
   &[left] {
     display: flex;
-    justify-content: left;
-  }
+    align-content: left;
   }
 }
 
@@ -25,7 +17,6 @@
 
 // mobile first grid
 .grid {
-  // counter-set: counter-strike;
   margin: 0 15px;
   display: grid;
   grid-gap: 10px;
@@ -39,6 +30,15 @@
     grid-gap: 20px;
     grid-template-columns: repeat(8, 1fr);
   }
+  // .cell {
+  //   grid-column: 3/-3;
+  // }
+  // .download-pill {
+  //   width: 30%;
+  // }
+  // .arrow {
+  //   width: 10%;
+  // }
 }
 
 // desktop grid
@@ -47,4 +47,13 @@
     margin: 30px 130px;
     grid-template-columns: repeat(12, 1fr);
   }
+  // .cell {
+  //   grid-column: 5/-5;
+  // }
+  // .download-pill {
+  //   width: 50%;
+  // }
+  // .arrow {
+  //   width:18%;
+  // }
 }
