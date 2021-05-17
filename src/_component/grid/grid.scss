@@ -7,9 +7,23 @@
     display: flex;
     justify-content: center;
   }
+
   &[left] {
     display: flex;
     align-content: left;
+  }
+
+  &[span="4"] {
+    grid-column: span 4;
+    display: block;
+  }
+
+  &[span="1"] {
+    overflow: hidden;
+    grid-column: span 1;
+    // grid-row: span 1;
+    width: 65px;
+    // height: 65px;
   }
 }
 
@@ -30,9 +44,10 @@
     grid-gap: 20px;
     grid-template-columns: repeat(8, 1fr);
   }
-  // .cell {
-  //   grid-column: 3/-3;
-  // }
+  .cell {
+    grid-column: 3/-3;
+  }
+ 
   // .download-pill {
   //   width: 30%;
   // }
@@ -47,9 +62,9 @@
     margin: 30px 130px;
     grid-template-columns: repeat(12, 1fr);
   }
-  // .cell {
-  //   grid-column: 5/-5;
-  // }
+  .cell {
+    grid-column: 5/-5;
+  }
   // .download-pill {
   //   width: 50%;
   // }

@@ -1,7 +1,5 @@
 .picture-shadow {
-  display: flex;
   position: relative;
-  justify-content: flex-start;
 
   img {
     width: 100%;
@@ -12,19 +10,13 @@
   }
 }
 
-
-.connect-area {
-  display: flex;
-
-
-
   
   .ns-facebook2 {
     background-color: $color-blue-navy;
     color: $color-white;
     width: 65px;
     height: 65px;
-    display: flex;
+    display: -webkit-flex;
     font-size: xx-large;
     justify-content: center;
     align-items: center;
@@ -36,7 +28,7 @@
     color: $color-black;
     width: 65px;
     height: 65px;
-    display: flex;
+    display: -webkit-flex;
     font-size: xx-large;
     justify-content: center;
     align-items: center;
@@ -48,7 +40,7 @@
     color: $color-white;
     width: 65px;
     height: 65px;
-    display: flex;
+    display: -webkit-flex;
     font-size: xx-large;
     justify-content: center;
     align-items: center;
@@ -60,7 +52,7 @@
     color: $color-white;
     width: 65px;
     height: 65px;
-    display: flex;
+    display: -webkit-flex;
     font-size: xx-large;
     justify-content: center;
     align-items: center;
@@ -72,7 +64,7 @@
     color: $color-white;
     width: 65px;
     height: 65px;
-    display: flex;
+    display: -webkit-flex;
     font-size: xx-large;
     justify-content: center;
     align-items: center;
@@ -85,12 +77,13 @@
     width: 65px;
     height: 65px;
     font-size: xx-large;
-    display: flex;
+    display:-webkit-flex;
     justify-content: center;
     align-items: center;
+    vertical-align: middle;
     border-radius: 50%;
   }
-}  
+
 
 
 
