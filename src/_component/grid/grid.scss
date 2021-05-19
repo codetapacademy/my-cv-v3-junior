@@ -9,7 +9,7 @@
   }
 
   &[left] {
-    display: flex;
+    display: absolute;
     align-content: left;
   }
 
@@ -44,16 +44,13 @@
     grid-gap: 20px;
     grid-template-columns: repeat(8, 1fr);
   }
-  .cell {
-    grid-column: 3/-3;
-  }
+  // .cell {
+  //   grid-column: 3/-3;
+  // }
  
-  // .download-pill {
-  //   width: 30%;
-  // }
-  // .arrow {
-  //   width: 10%;
-  // }
+  .download-pill {
+    width: 30%;
+  }
 }
 
 // desktop grid
@@ -62,13 +59,10 @@
     margin: 30px 130px;
     grid-template-columns: repeat(12, 1fr);
   }
-  .cell {
-    grid-column: 5/-5;
+  // .cell {
+  //   grid-column: 5/-5;
+  // }
+  .download-pill {
+    width: 50%;
   }
-  // .download-pill {
-  //   width: 50%;
-  // }
-  // .arrow {
-  //   width:18%;
-  // }
 }
