@@ -1,0 +1,95 @@
+.picture-shadow {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid $color-blue;
+    box-sizing: border-box;
+  }
+}
+
+  .ns-facebook2 {
+    background-color: $color-blue-navy;
+    color: $color-white;
+    width: 65px;
+    height: 65px;
+    display: -webkit-flex;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .ns-github {
+    background-color: $color-light-grey;
+    color: $color-black;
+    width: 65px;
+    height: 65px;
+    display: -webkit-flex;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .ns-mail4 {
+    background-color: $color-purple;
+    color: $color-white;
+    width: 65px;
+    height: 65px;
+    display: -webkit-flex;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  .ns-skype {
+    background-color: $color-blue;
+    color: $color-white;
+    width: 65px;
+    height: 65px;
+    display: -webkit-flex;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  .ns-twitter {
+    background-color: $color-blue;
+    color: $color-white;
+    width: 65px;
+    height: 65px;
+    display: -webkit-flex;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  .ns-whatsapp {
+    background-color: $color-green;
+    color: $color-white;
+    width: 65px;
+    height: 65px;
+    font-size: xx-large;
+    display:-webkit-flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+
+
+
+
+
