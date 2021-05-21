@@ -1,0 +1,18 @@
+.big-break {
+  height: 55px;
+}
+
+.download-pill {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  border-radius: 27px;
+  border: 1px solid $color-blue;
+  background-color: $color-blue;
+  color: $color-white;
+  padding: 0 24px;
+
+  & .ns-download {
+    font-size: 32px;
+  }
+}

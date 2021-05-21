@@ -1,0 +1,18 @@
+.main-title {
+    font-size: 36px;
+    line-height: 44px;
+
+  & span:first-child {
+    color: $color-blue;
+    
+  }
+  
+  & span:not(:first-child) {
+    color: $color-dark-grey;
+  }
+
+}
+
+
+
+

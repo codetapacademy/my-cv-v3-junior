@@ -9,12 +9,24 @@
   &[row] {
     grid-column: 1/-1;
   }
+
+  &[center] {
+    display: flex;
+    justify-content: center;
+
+  &[left] {
+    display: flex;
+    justify-content: left;
+  }
+  }
 }
+
+
 
 // mobile first grid
 .grid {
   // counter-set: counter-strike;
-  margin: 15px;
+  margin: 0 15px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
