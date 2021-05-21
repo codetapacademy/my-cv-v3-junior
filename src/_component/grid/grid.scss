@@ -21,9 +21,8 @@
   &[span="1"] {
     overflow: hidden;
     grid-column: span 1;
-    // grid-row: span 1;
     width: 65px;
-    // height: 65px;
+    height: 65px;
   }
 }
 
@@ -44,8 +43,8 @@
     grid-gap: 20px;
     grid-template-columns: repeat(8, 1fr);
   }
-  // .cell {
-  //   grid-column: 3/-3;
+  // .cell&[span="1"] {
+  //   grid-auto-rows: 65px;
   // }
  
   .download-pill {
@@ -59,7 +58,8 @@
     margin: 30px 130px;
     grid-template-columns: repeat(12, 1fr);
   }
-  // .cell {
+  // .cell&[span="1"] {
+  //   display: inline-grid;
   //   grid-column: 5/-5;
   // }
   .download-pill {
