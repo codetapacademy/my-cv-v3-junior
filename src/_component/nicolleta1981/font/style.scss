@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?mw0tlq') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?mw0tlq') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?mw0tlq##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?omtb4d') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?omtb4d') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?omtb4d##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -14,7 +14,7 @@
 [class^="ns-"], [class*=" ns-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
-  speak: never;
+  // speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -26,19 +26,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ns-medal {
+.ns-double-arrow {
   &:before {
-    content: $ns-medal; 
+    content: $ns-double-arrow; 
   }
 }
-.ns-stop-watch {
+.ns-download {
   &:before {
-    content: $ns-stop-watch; 
-  }
-}
-.ns-heart {
-  &:before {
-    content: $ns-heart; 
+    content: $ns-download; 
   }
 }
 .ns-facebook2 {
@@ -51,14 +46,29 @@
     content: $ns-github; 
   }
 }
+.ns-heart {
+  &:before {
+    content: $ns-heart; 
+  }
+}
 .ns-mail4 {
   &:before {
     content: $ns-mail4; 
   }
 }
+.ns-medal {
+  &:before {
+    content: $ns-medal; 
+  }
+}
 .ns-skype {
   &:before {
     content: $ns-skype; 
+  }
+}
+.ns-stop-watch {
+  &:before {
+    content: $ns-stop-watch; 
   }
 }
 .ns-twitter {
@@ -69,16 +79,6 @@
 .ns-whatsapp {
   &:before {
     content: $ns-whatsapp; 
-  }
-}
-.ns-double-arrow {
-  &:before {
-    content: $ns-double-arrow; 
-  }
-}
-.ns-download {
-  &:before {
-    content: $ns-download; 
   }
 }
 .ns-youtube {
